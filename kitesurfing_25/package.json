@@ -7,15 +7,17 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
-    "lint:fix":"eslint . --ext .ts,.tsx.js,.jsx",
+    "lint:fix": "eslint . --ext .ts,.tsx.js,.jsx",
     "format": "prettier --write .",
     "check": "eslint . --ext .ts,.tsx,.js,.jsx && prettier --check .",
     "prepare": "husky"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.9",
     "next": "15.5.6",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.0",
