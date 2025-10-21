@@ -3,5 +3,6 @@ export default function Home() {
   const age = 10
   const car = "audi"
   const dog = 'rottie'
+  const anothercar = "audi"
   return <div>Hello</div>;
 }
