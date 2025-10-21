@@ -1,8 +1,4 @@
 export default function Home() {
-  const name = "simon"
-  const age = 10
-  const car = "audi"
-  const dog = 'rottie'
-  const anothercar = "audi"
+  const name = 'simon'
   return <div>Hello</div>;
 }
