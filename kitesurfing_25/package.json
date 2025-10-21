@@ -9,8 +9,7 @@
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx",
     "format": "prettier --write .",
-    "check": "eslint . --ext .ts,.tsx,.js,.jsx && prettier --check .",
-    "prepare": "husky"
+    "check": "eslint . --ext .ts,.tsx,.js,.jsx && prettier --check ."
   },
   "dependencies": {
     "next": "15.5.6",
