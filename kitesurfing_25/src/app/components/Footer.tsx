@@ -3,8 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 const Footer = () => {
   return (
-    <div className="bg-primary py-10">
-      <div className="text-default mx-auto grid max-w-7xl justify-items-center gap-10 p-4 py-10 sm:grid-cols-2 md:grid-cols-3">
+    <div className="py-10">
+      <div className="mx-auto grid max-w-7xl justify-items-center gap-10 p-4 py-10 sm:grid-cols-2 md:grid-cols-3">
         <Image
           src={'/logo_light.png'}
           width={200}
@@ -13,12 +13,10 @@ const Footer = () => {
           className="mx-auto w-fit"
         />
         <div
-          className="flex flex-col space-y-3 py-4 text-center sm:text-left"
+          className="text-primary flex flex-col space-y-3 py-4 text-center sm:text-left"
           id="contacts"
         >
-          <h3 className="text-secondary text-xl font-extrabold underline">
-            Contacts
-          </h3>
+          <h3 className="text-xl font-extrabold">Contacts</h3>
           <a
             href="mailto:hello@kenyakitesurfingschools.com"
             className="hover:text-accent"
@@ -29,10 +27,8 @@ const Footer = () => {
             +254 729 173 699
           </a>
         </div>
-        <div className="flex flex-col space-y-3 py-4 text-center sm:col-span-2 sm:text-left md:col-span-1">
-          <h3 className="text-secondary text-xl font-extrabold underline">
-            Get socials
-          </h3>
+        <div className="text-primary flex flex-col space-y-3 py-4 text-center sm:col-span-2 md:col-span-1 md:text-left">
+          <h3 className="text-xl font-extrabold">Get socials</h3>
           <a
             href="https://web.facebook.com/kenyakitesurfingschools"
             className="hover:text-accent"
@@ -52,6 +48,12 @@ const Footer = () => {
             instagram
           </a>
         </div>
+      </div>
+      <div className="text-primary flex flex-col space-y-2 text-center font-bold">
+        <p>© 2024 All rights preserved</p>
+        <p>
+          Developed with ❤️ by <span className="text-accent">Magotsi</span>
+        </p>
       </div>
     </div>
   );
