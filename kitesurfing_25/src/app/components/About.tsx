@@ -21,7 +21,7 @@ const About = () => {
         to give you the best possible holiday by teaching you the sport in the
         safest way possible whilst making sure you have fun along the way
       </p>
-      <div className="mx-auto grid w-fit gap-10 py-10 lg:grid-cols-3">
+      <div className="mx-auto grid w-fit gap-20 py-10 lg:grid-cols-3">
         <Image
           src={'/images/gallery/clients.jpeg'}
           width={300}
