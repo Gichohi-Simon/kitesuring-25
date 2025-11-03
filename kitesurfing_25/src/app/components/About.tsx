@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 const About = () => {
   return (
-    <div id="about" className="mx-auto max-w-7xl px-4 py-10">
+    <div id="about" className="px-4 py-10">
       <div className="">
         <h3 className="text-primary py-2 text-center text-xl font-bold">
           About Us
@@ -21,13 +21,13 @@ const About = () => {
         to give you the best possible holiday by teaching you the sport in the
         safest way possible whilst making sure you have fun along the way
       </p>
-      <div className="mx-auto grid w-fit gap-10 py-10 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto grid w-fit gap-10 py-10 lg:grid-cols-3">
         <Image
           src={'/images/gallery/clients.jpeg'}
           width={300}
           height={300}
           alt="about-img"
-          className="w-fit rounded-md sm:row-span-2 lg:row-span-1"
+          className="w-fit rounded-md"
         />
         <Image
           src={'/images/instructions.jpeg'}
@@ -41,7 +41,7 @@ const About = () => {
           width={300}
           height={300}
           alt="about-img"
-          className="w-fit rounded-md sm:row-span-2 lg:row-span-1"
+          className="w-fit rounded-md"
         />
         <Image
           src={'/images/gallery/client_show.jpeg'}
@@ -55,7 +55,7 @@ const About = () => {
           width={300}
           height={300}
           alt="about-img"
-          className="w-fit rounded-md sm:row-span-2 lg:row-span-1"
+          className="w-fit rounded-md"
         />
         <Image
           src={'/images/gallery/banner.jpeg'}
