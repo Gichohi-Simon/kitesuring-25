@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 const About = () => {
   return (
-    <div id="about" className="px-4 md:px-8 py-10">
+    <div id="about" className="px-4 py-10 md:px-8">
       <div className="">
         <h3 className="text-primary py-2 text-center text-2xl font-bold">
           About Us

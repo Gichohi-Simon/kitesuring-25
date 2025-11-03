@@ -10,6 +10,9 @@ const fredoka = Fredoka({
 
 export const metadata: Metadata = {
   title: 'Kenya Kite Surfing School',
+  icons: {
+    icon: '/logo_light.png',
+  },
   description: 'Site for Kenya kitesurfing school',
 };
 
