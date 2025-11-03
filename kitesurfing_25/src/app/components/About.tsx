@@ -6,14 +6,14 @@ const About = () => {
   return (
     <div id="about" className="px-4 py-10">
       <div className="">
-        <h3 className="text-primary py-2 text-center text-xl font-bold">
+        <h3 className="text-primary py-2 text-center text-2xl font-bold">
           About Us
         </h3>
-        <h5 className="py-1 text-center text-lg font-bold">
+        <h5 className="py-1 text-center text-xl font-bold">
           we are open daily from 9:00am to 5:00pm
         </h5>
       </div>
-      <p className="py-2 text-center sm:text-left">
+      <p className="py-2 text-center text-lg sm:text-left">
         Kenya Kitesurfing school was established in 2013 with the aim of
         providing an affordable kiteboarding and surfing holiday for kitesurfers
         of all ages who are keen to learn the exhilarating sport. Our schools
