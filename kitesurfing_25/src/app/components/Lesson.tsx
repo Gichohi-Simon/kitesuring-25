@@ -5,7 +5,7 @@ import cardData from '../utils/cardData';
 
 const Lesson = () => {
   return (
-    <div className="p-4 py-10">
+    <div className="p-4 py-10 md:px-6">
       <div className="text-center text-lg">
         <h3 className="text-primary text-xl font-bold">Lesson pricing</h3>
         <p>All lesson include equipment plus instructions</p>
