@@ -5,7 +5,7 @@ import React from 'react';
 const Location = () => {
   return (
     <div id="location" className="min-h-screen py-10">
-      <h3 className="text-primary text-center text-xl font-extrabold">
+      <h3 className="text-primary text-center text-lg font-extrabold">
         Come Surf with Us
       </h3>
       <iframe

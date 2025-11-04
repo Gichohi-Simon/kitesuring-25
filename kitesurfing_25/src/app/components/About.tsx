@@ -11,7 +11,7 @@ const About = () => {
           we are open daily from 9:00am to 5:00pm
         </h5>
       </div>
-      <p className="py-2 text-center text-lg sm:text-left">
+      <p className="py-2 text-center text-sm md:text-lg sm:text-left">
         Kenya Kitesurfing school was established in 2013 with the aim of
         providing an affordable kiteboarding and surfing holiday for kitesurfers
         of all ages who are keen to learn the exhilarating sport. Our schools

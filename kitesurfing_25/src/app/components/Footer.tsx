@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-primary flex flex-col space-y-2 py-4 text-center font-bold">
-        <p>© 2024 All rights preserved</p>
+        <p>© 2025 All rights preserved</p>
         <p>
           Developed with ❤️ by <span className="text-accent">Magotsi</span>
         </p>

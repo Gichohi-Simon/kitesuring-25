@@ -6,8 +6,8 @@ import cardData from '../utils/cardData';
 const Lesson = () => {
   return (
     <div className="p-4 py-10 md:px-6">
-      <div className="text-center text-lg">
-        <h3 className="text-primary pb-2 text-xl font-bold">Lesson pricing</h3>
+      <div className="text-center text-md">
+        <h3 className="text-primary pb-2 text-lg font-bold">Lesson pricing</h3>
         <p>All lesson include equipment plus instructions</p>
         <p>(recommended: 9 hours minimum for complete beginners)</p>
         <p>cash only in euros, usd, kes, gbp</p>
