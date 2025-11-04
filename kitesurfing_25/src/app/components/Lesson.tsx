@@ -7,7 +7,7 @@ const Lesson = () => {
   return (
     <div className="p-4 py-10 md:px-6">
       <div className="text-center">
-        <h3 className="text-primary pb-2 text-lg font-bold">Lesson pricing</h3>
+        <h3 className="text-primary pb-2 text-lg font-bold capitalize">Lesson pricing</h3>
         <p className="text-md">
           All lesson include equipment plus instructions
         </p>

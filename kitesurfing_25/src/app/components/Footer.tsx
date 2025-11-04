@@ -16,7 +16,7 @@ const Footer = () => {
           className="text-primary flex flex-col space-y-3 py-4 text-center sm:text-left"
           id="contacts"
         >
-          <h3 className="text-xl font-extrabold">Contacts</h3>
+          <h3 className="text-lg font-extrabold">Contacts</h3>
           <a
             href="mailto:hello@kenyakitesurfingschools.com"
             className="hover:text-accent"
@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="text-primary flex flex-col space-y-3 py-4 text-center sm:col-span-2 md:col-span-1 md:text-left">
-          <h3 className="text-xl font-extrabold">Get socials</h3>
+          <h3 className="text-lg font-extrabold">Get socials</h3>
           <a
             href="https://web.facebook.com/kenyakitesurfingschools"
             className="hover:text-accent"
@@ -49,7 +49,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="text-primary flex flex-col space-y-2 py-4 text-center font-bold">
+      <div className="text-primary flex flex-col space-y-2 pt-4 text-center font-bold">
         <p>© 2025 All rights preserved</p>
         <p>
           Developed with ❤️ by <span className="text-accent">Magotsi</span>

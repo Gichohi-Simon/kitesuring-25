@@ -4,14 +4,14 @@ import React from 'react';
 import Image from 'next/image';
 const About = () => {
   return (
-    <div id="about" className="px-4 py-10 md:px-8">
+    <div id="about" className="px-4 pb-10 md:px-8">
       <div className="">
-        <h3 className="text-primary text-center text-xl font-bold">About Us</h3>
+        <h3 className="text-primary text-center text-xl font-bold capitalize">About us</h3>
         <h5 className="py-1 text-center text-lg font-bold">
           we are open daily from 9:00am to 5:00pm
         </h5>
       </div>
-      <p className="md:text-md py-2 text-center text-sm sm:text-left">
+      <p className="py-2 text-center text-sm sm:text-left md:text-lg">
         Kenya Kitesurfing school was established in 2013 with the aim of
         providing an affordable kiteboarding and surfing holiday for kitesurfers
         of all ages who are keen to learn the exhilarating sport. Our schools
