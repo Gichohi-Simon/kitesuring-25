@@ -41,7 +41,7 @@ const Navbar = () => {
           )}
           <ul
             className={
-              'semi-bold hidden items-center space-x-8 text-sm sm:flex'
+              'semi-bold hidden items-center space-x-8 capitalize sm:flex'
             }
           >
             <li
@@ -49,7 +49,7 @@ const Navbar = () => {
                 'hover:bg-accent text-default cursor-pointer rounded p-2'
               }
             >
-              <Link href={'/'} className={'text-default text-lg'}>
+              <Link href={'/'} className={'text-default'}>
                 Home
               </Link>
             </li>
@@ -58,7 +58,7 @@ const Navbar = () => {
                 'hover:bg-accent text-default cursor-pointer rounded p-2'
               }
             >
-              <a href="#lesson" className="text-lg">
+              <a href="#lesson" className="">
                 price
               </a>
             </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 'hover:bg-accent text-default cursor-pointer rounded p-2'
               }
             >
-              <a href="#about" className="text-lg">
+              <a href="#about" className="">
                 About
               </a>
             </li>
@@ -76,7 +76,7 @@ const Navbar = () => {
                 'hover:bg-accent text-default cursor-pointer rounded p-2'
               }
             >
-              <a href="#location" className="text-lg">
+              <a href="#location" className="">
                 location
               </a>
             </li>
@@ -85,7 +85,7 @@ const Navbar = () => {
                 'hover:bg-accent text-default cursor-pointer rounded p-2'
               }
             >
-              <a href="#contacts" className="text-lg">
+              <a href="#contacts" className="">
                 contacts
               </a>
             </li>
@@ -102,7 +102,7 @@ const Navbar = () => {
             href={'/'}
             onClick={() => setIsOpen(!isOpen)}
             className={
-              'hover:bg-accent text-default cursor-pointer rounded p-2 text-lg'
+              'hover:bg-accent text-default cursor-pointer rounded p-2'
             }
           >
             Home
@@ -112,7 +112,7 @@ const Navbar = () => {
             href="#lesson"
             onClick={() => setIsOpen(!isOpen)}
             className={
-              'hover:bg-accent text-default cursor-pointer rounded p-2 text-lg'
+              'hover:bg-accent text-default cursor-pointer rounded p-2'
             }
           >
             price
@@ -122,7 +122,7 @@ const Navbar = () => {
             href="#about"
             onClick={() => setIsOpen(!isOpen)}
             className={
-              'hover:bg-accent text-default cursor-pointer rounded p-2 text-lg'
+              'hover:bg-accent text-default cursor-pointer rounded p-2'
             }
           >
             About
@@ -132,7 +132,7 @@ const Navbar = () => {
             href="#location"
             onClick={() => setIsOpen(!isOpen)}
             className={
-              'hover:bg-accent text-default cursor-pointer rounded p-2 text-lg'
+              'hover:bg-accent text-default cursor-pointer rounded p-2'
             }
           >
             location
@@ -142,7 +142,7 @@ const Navbar = () => {
             href="#contacts"
             onClick={() => setIsOpen(!isOpen)}
             className={
-              'hover:bg-accent text-default cursor-pointer rounded p-2 text-lg'
+              'hover:bg-accent text-default cursor-pointer rounded p-2'
             }
           >
             contacts

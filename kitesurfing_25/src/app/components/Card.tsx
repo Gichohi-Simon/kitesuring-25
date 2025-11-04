@@ -17,7 +17,7 @@ const Card = ({ data }: { data: CardData }) => {
           <div className="flex items-center justify-between">
             <button
               onClick={() => setIsOpen(true)}
-              className="bg-primary text-default cursor-pointer rounded-md p-2"
+              className="bg-primary text-default cursor-pointer rounded-md p-2 text-xs"
             >
               View {data.package_name}
             </button>
@@ -57,13 +57,13 @@ const Card = ({ data }: { data: CardData }) => {
                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                   <Dialog.Title
                     as="h3"
-                    className="text-primary text-center text-xl leading-6 font-bold"
+                    className="text-primary text-center text-lg leading-6 font-bold"
                   >
                     {data.package_name}
                   </Dialog.Title>
                   <div className="mt-2 text-center">
                     {data.explainer.details.map((detail) => (
-                      <p key={detail} className="text-secondary text-lg">
+                      <p key={detail} className="text-secondary text-xs">
                         {detail}
                       </p>
                     ))}
@@ -72,7 +72,7 @@ const Card = ({ data }: { data: CardData }) => {
                   <div className="mt-4">
                     <button
                       type="button"
-                      className="bg-primary text-default hover:bg-primary/30 focus-visible:ring-primary inline-flex cursor-pointer justify-center rounded-md border border-transparent px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+                      className="bg-primary text-default hover:bg-primary/30 focus-visible:ring-primary inline-flex cursor-pointer justify-center rounded-md border border-transparent px-4 py-2 text-sm text-xs font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
                       onClick={() => setIsOpen(false)}
                     >
                       Got it, thanks!

@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <div className="py-10">
-      <div className="mx-auto grid max-w-7xl justify-items-center gap-10 p-4 py-10 sm:grid-cols-2 md:grid-cols-3">
+      <div className="mx-auto grid justify-items-center gap-10 p-4 py-10 sm:grid-cols-2 md:grid-cols-3">
         <Image
           src={'/logo_light.png'}
           width={200}
@@ -49,7 +49,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="text-primary flex flex-col space-y-2 text-center font-bold">
+      <div className="text-primary flex flex-col space-y-2 py-4 text-center font-bold">
         <p>© 2024 All rights preserved</p>
         <p>
           Developed with ❤️ by <span className="text-accent">Magotsi</span>
