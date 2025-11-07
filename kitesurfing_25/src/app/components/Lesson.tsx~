@@ -18,7 +18,7 @@ const Lesson = () => {
       </div>
       <div
         id="lesson"
-        className="grid gap-4 py-10 md:grid-cols-2 lg:grid-cols-3"
+        className="grid gap-7 py-10 md:grid-cols-2 lg:grid-cols-3"
       >
         {cardData.map((data) => (
           <Card key={data.id} data={data} />
